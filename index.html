@@ -3,14 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WebStudio</title>
+<title>WebStudio — Создаем сайты</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
   <div class="container nav">
-    <h2>WebStudio</h2>
+    <h2 class="logo">WebStudio</h2>
     <nav>
       <a href="#services">Услуги</a>
       <a href="#about">О нас</a>
@@ -20,17 +22,29 @@
 </header>
 
 <section class="hero">
-  <h1>Создаем сайты, которые продают</h1>
-  <p>Landing Page • Интернет-магазины • Корпоративные сайты</p>
-  <a href="#contact" class="btn">Получить консультацию</a>
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Создаем сайты, которые продают</h1>
+    <p>Landing Page • Интернет-магазины • Корпоративные сайты</p>
+    <a href="#contact" class="btn big">Получить консультацию</a>
+  </div>
 </section>
 
 <section id="services" class="section">
   <h2>Наши услуги</h2>
   <div class="grid">
-    <div class="card">Landing Page</div>
-    <div class="card">Интернет-магазины</div>
-    <div class="card">SEO-продвижение</div>
+    <div class="card">
+      <h3>Landing Page</h3>
+      <p>Продающие одностраничники под ключ</p>
+    </div>
+    <div class="card">
+      <h3>Интернет-магазины</h3>
+      <p>Полный цикл разработки eCommerce</p>
+    </div>
+    <div class="card">
+      <h3>SEO-продвижение</h3>
+      <p>Выводим сайты в ТОП поисковых систем</p>
+    </div>
   </div>
 </section>
 
@@ -42,9 +56,9 @@
 <section id="contact" class="section">
   <h2>Оставить заявку</h2>
   <form>
-    <input type="text" placeholder="Имя">
-    <input type="email" placeholder="Email">
-    <button>Отправить</button>
+    <input type="text" placeholder="Имя" required>
+    <input type="email" placeholder="Email" required>
+    <button class="btn">Отправить</button>
   </form>
 </section>
 
