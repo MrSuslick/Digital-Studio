@@ -1,0 +1,16 @@
+* {margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+body {line-height:1.6;}
+.container {width:90%;max-width:1100px;margin:auto;}
+header {background:#111;color:#fff;padding:20px 0;}
+.nav {display:flex;justify-content:space-between;align-items:center;}
+nav a {color:white;margin-left:20px;text-decoration:none;}
+.hero {background:linear-gradient(120deg,#4e73df,#1cc88a);
+color:white;text-align:center;padding:120px 20px;}
+.btn {background:#1cc88a;color:white;padding:10px 20px;text-decoration:none;border:none;cursor:pointer;}
+.section {padding:80px 20px;text-align:center;}
+.light {background:#f4f4f4;}
+.grid {display:flex;gap:20px;justify-content:center;margin-top:30px;flex-wrap:wrap;}
+.card {background:white;padding:30px;width:250px;box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+form {display:flex;flex-direction:column;gap:15px;max-width:400px;margin:auto;}
+input {padding:10px;}
+footer {background:#111;color:white;text-align:center;padding:20px;}
